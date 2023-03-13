@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Lucida Sans';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.header{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    width: 260px;
+}
+
+.titulo h3{
+    font-size: 18px;
+}
+.titulo p{
+    font-size: 12px;
+}
+.titulo{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.menuArea{
+    border: 1px solid #dad0d0;
+    padding: 15px;
+}
+label{
+    font-size: 13px;
+}
+
+input{
+    border: 1px solid #ccc;
+    width: 230px;
+    padding: 6px;
+    font-size: 12px;
+}
+
+button{
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 13px;
+}
+.listaProduto{
+    margin-top: 20px;
+}
+
+table{
+    border-collapse: collapse ;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 13px;
+}
+table th{
+    background-color: #a7a3a3;
+}
+table tr{
+    text-align: center;
+}
+table img{
+    width: 17px;
+    padding: 1px;
+}
